@@ -1,4 +1,5 @@
 package Part1;
+
 import java.util.Scanner;
 
 public class Code2{
