@@ -1,5 +1,16 @@
 package Part1;
 import java.util.*;
+
+class Code4{
+    public static void main(String args[]){
+        Test students = new Test();
+        students.enterStudentsKeys();
+        students.checkKeys();
+        students.displayResult();
+        System.out.println("19CE055 Vivek D Kapadia");
+    }
+}
+
 class Test{
     char [][] studentsAnswer;
     char[] keys;
@@ -44,12 +55,4 @@ class Test{
     }
 
 }
-class Code4{
-    public static void main(String args[]){
-        Test students = new Test();
-        students.enterStudentsKeys();
-        students.checkKeys();
-        students.displayResult();
-        System.out.println("19CE055 Vivek D Kapadia");
-    }
-}
+
